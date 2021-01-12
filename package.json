@@ -1,0 +1,39 @@
+{
+  "name": "todolistusinggraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --ext js,graphql --exec babel-node",
+    "test": "jest --watch",
+    "get-schema": "graphql get-schema -p prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boro741/ToDoListUsingGraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boro741/ToDoListUsingGraphQL/issues"
+  },
+  "homepage": "https://github.com/boro741/ToDoListUsingGraphQL#readme",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-client": "^2.6.10",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql": "^15.4.0",
+    "graphql-cli": "^2.16.4",
+    "graphql-yoga": "^1.14.10",
+    "parcel-bundler": "^1.12.4",
+    "prisma-binding": "^2.3.16",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^1.17.5"
+  }
+}
